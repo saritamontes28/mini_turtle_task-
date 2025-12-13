@@ -1,27 +1,17 @@
-# Evolución de Mini-Turtle 🐢
+# 🐢 Mi Primera Tortuga de Dibujo (Versión Funcional)
 
-Este repositorio contiene la resolución de la práctica de programación donde se aplican conceptos de **modularidad**, **empaquetado** y **Programación Orientada a Objetos (POO)**.
+¡Bienvenido! Este es un proyecto sencillo donde aprendí a organizar mi código en Python usando **módulos** y **paquetes**.
 
-## 📁 Estructura del Proyecto
+### ¿De qué trata este proyecto?
+Imagina que tienes una caja de herramientas. En este proyecto, guardamos todas las instrucciones para mover una "tortuga" (como avanzar o bajar) dentro de una carpeta llamada `mini_turtle`. 
 
-El proyecto está dividido en dos grandes ejercicios que muestran la evolución del código:
+### ¿Qué hace el código?
+1. **Dibuja una escalera**: El programa principal (`main.py`) usa las herramientas de la carpeta para dibujar una figura paso a paso.
+2. **Usa un contador global**: La tortuga siempre sabe en qué posición está porque usa una memoria compartida llamada `posicion_x`.
+3. **Botón de reinicio**: Agregamos una función especial llamada `reiniciar()` que borra la memoria y regresa a la tortuga al punto de inicio (cero).
 
-### 1. Ejercicio 1: Versión Funcional (Modularidad)
-En esta etapa, transformamos funciones sueltas en un paquete profesional llamado `mini_turtle`.
-* **Lógica Separada**: El estado y las funciones de movimiento están en `drawer_logic.py`.
-* **Interfaz Limpia**: Se usa `__init__.py` para permitir importaciones directas.
-* **Estado Global**: Se maneja la posición mediante la palabra clave `global`.
-[Tarea: Evolución de Mini-Turtle](https://github.com/tu-usuario/mini-turtle-task)
-
-### 2. Ejercicio 2: Versión Orientada a Objetos (POO)
-Refactorización del paquete para eliminar variables globales y aplicar **Encapsulamiento**.
-* **Clase Tortuga**: Toda la lógica reside dentro de una clase.
-* **Atributos de Instancia**: La posición se guarda en `self.posicion_x`, eliminando el uso de `global`.
-* **Independencia**: Es posible crear múltiples objetos (ej. `t1` y `t2`) que mantienen sus posiciones de forma independiente.
-
-[Tarea: Evolución de Mini-Turtle](https://github.com/tu-usuario/mini-turtle-task)
-
-## 🚀 Cómo ejecutar las pruebas
-
-1. **Para la versión funcional**: Ejecuta el archivo `main.py` en la raíz.
-2. **Para la versión de objetos**: Ejecuta el archivo `main_oo.py` en la raíz.
+### Estructura del proyecto
+* **mini_turtle/**: Es la carpeta donde viven las instrucciones.
+* **drawer_logic.py**: Es el "cerebro" donde está escrita la lógica del movimiento.
+* **__init__.py**: Es como la recepción de una oficina; ayuda a que sea fácil pedir las herramientas.
+* **main.py**: Es donde nosotros, como usuarios, probamos que todo funcione.
