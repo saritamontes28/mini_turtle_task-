@@ -1,10 +1,10 @@
 from mini_turtle import adelante, abajo, reiniciar
 
-print("Dibujando escalera...")
-adelante(10)
-abajo(10)
-adelante(10)
-abajo(10)
+# Dibujar escalera
+for _ in range(3):
+    adelante(10)
+    abajo(10)
 
+# Probar nueva funcionalidad
 reiniciar()
-adelante(50)
+adelante(5)
