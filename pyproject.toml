@@ -1,0 +1,4 @@
+[project]
+name = "mini_turtle"
+version = "0.1.0"
+description = "Paquete funcional de mini-turtle"
