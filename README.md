@@ -1,4 +1,4 @@
-# 🐢 Mi Primera Tortuga de Dibujo (Versión Funcional)
+# Mi Primera Tortuga de Dibujo (Versión Funcional)
 
 ¡Bienvenido! Este es un proyecto sencillo donde aprendí a organizar mi código en Python usando **módulos** y **paquetes**.
 
