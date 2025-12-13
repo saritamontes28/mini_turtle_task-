@@ -15,3 +15,4 @@ Imagina que tienes una caja de herramientas. En este proyecto, guardamos todas l
 * **drawer_logic.py**: Es el "cerebro" donde está escrita la lógica del movimiento.
 * **__init__.py**: Es como la recepción de una oficina; ayuda a que sea fácil pedir las herramientas.
 * **main.py**: Es donde nosotros, como usuarios, probamos que todo funcione.
+* **pyproject.toml**: Archivo de configuración que contiene los metadatos del proyecto, como el nombre y la versión.
